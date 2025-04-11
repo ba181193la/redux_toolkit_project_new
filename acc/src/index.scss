@@ -1,0 +1,149 @@
+body,
+html {
+  font-family: 'Lato', sans-serif !important;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  #root {
+    height: 100%;
+    width: 100%;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  .Mui-disabled {
+    opacity: 50%;
+    cursor: not-allowed !important;
+    pointer-events: auto !important;
+  }
+  // .MuiInputBase-root {
+  //   padding: 0 !important;
+  // }
+
+  .MuiButton-startIcon,
+  .MuiTouchRipple-root,
+  .MuiButtonBase-root,
+  .MuiFormControlLabel-root {
+    margin: 0 !important;
+  }
+
+  .react-form-builder-form,
+  .incident-category-form-wrapper {
+    border: 1px solid #c5c5c5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .btn-toolbar {
+      display: none;
+    }
+
+    .rfb-item {
+      width: 30%;
+    }
+
+    .form-label {
+      font-family: Lato, sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 16px;
+      color: #000;
+      margin-bottom: 4px;
+      white-space: nowrap;
+    }
+    .custom-control-label {
+      font-family: Lato, sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      color: #000;
+    }
+
+    input {
+      font-size: 14px;
+      line-height: 32px;
+      font-family: Lato, sans-serif;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.87);
+      cursor: text;
+      display: inline-flex;
+      align-items: center;
+      position: relative;
+      border-radius: 4px;
+      &:focus {
+        border: 1px solid #0f6cbd;
+        box-shadow: 0 0 0 2px rgba(15, 108, 189, 0.2);
+      }
+    }
+    .form-control {
+      height: 32px !important;
+      font-family: Lato, sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+      color: #000;
+      option {
+        font-family: Lato, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        color: #000;
+      }
+    }
+  }
+
+  .staffmaster-wrapper > div {
+    width: 100%;
+  }
+
+  .incident-category-form-wrapper {
+    .rfb-item {
+      width: 100% !important;
+    }
+  }
+}
+
+/* Apply globally to all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box !important;
+}
+
+.my-swal-popup {
+  z-index: 9999; /* Ensure this is higher than other elements */
+}
+
+.swal2-html-container {
+  margin: 0 !important;
+}
+
+.rtl {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.MuiAutocomplete-option,
+.MuiMenuItem-root {
+  font-size: 12px !important;
+}
+
+.mui-1q1iy3h-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.toast-close {
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}

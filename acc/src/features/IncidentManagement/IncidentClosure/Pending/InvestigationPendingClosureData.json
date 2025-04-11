@@ -1,0 +1,54 @@
+[
+  {
+    "S.No": 1,
+    "Incident Date": "28-06-2024",
+    "Reported Date": "28-06-2024",
+    "Incident Number": "NRC-IR-28062024-001",
+    "Incident Details": "The Arrival of candidates to accommodation without prior Notice form HR/Recruitment",
+    "Incident Type": "Near Miss",
+    "Department/Unit": "Accounts",
+    "Request Received Date": "29-08-2024",
+    "RCA Status": "Not Scored",
+    "Incident Status": "Waiting for Incident Closure",
+    "Action": "Edit"
+  },
+  {
+    "S.No": 2,
+    "Incident Date": "05-06-2023",
+    "Reported Date": "05-06-2023",
+    "Incident Number": "INC-1-05062023-002",
+    "Incident Details": "test data 102 - Test the incident detail",
+    "Incident Type": "Incident",
+    "Department/Unit": "T.library1",
+    "Request Received Date": "04-07-2024",
+    "RCA Status": "Not Scored",
+    "Incident Status": "Waiting for Incident Closure",
+    "Action": "Edit"
+  },
+  {
+    "S.No": 3,
+    "Incident Date": "13-10-2023",
+    "Reported Date": "13-10-2023",
+    "Incident Number": "NRC-IR-13102023-002",
+    "Incident Details": "Unauthorized design modification",
+    "Incident Type": "Incident",
+    "Department/Unit": "Accounts",
+    "Request Received Date": "25-06-2024",
+    "RCA Status": "Not Scored",
+    "Incident Status": "Waiting for Incident Closure",
+    "Action": "Edit"
+  },
+  {
+    "S.No": 4,
+    "Incident Date": "24-06-2024",
+    "Reported Date": "24-06-2024",
+    "Incident Number": "NRC-IR-23062024-001",
+    "Incident Details": "Inconsiderate/Rude/Hostile Behavior",
+    "Incident Type": "Incident",
+    "Department/Unit": "Accounts",
+    "Request Received Date": "24-06-2024",
+    "RCA Status": "Not Scored",
+    "Incident Status": "Waiting for Incident Closure",
+    "Action": "Edit"
+  }
+]
