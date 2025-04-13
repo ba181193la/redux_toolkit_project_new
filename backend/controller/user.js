@@ -4,6 +4,7 @@ const User=require('../mondal/user')
 exports.createUser=async(req,res)=>{
     try {
         console.log("***************",req.body);
+        return;
         let reqBody=req.body
         const userData=new User({
             userName:reqBody.userName,
